@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction" />
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" 
+        android:numeric="integer"
+        android:text="@string/ipText"/>
+    <EditText
+        android:id="@+id/port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" 
+        android:numeric="integer"
+        android:text="@string/portText"/>
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textMultiLine" 
+        android:text="@string/shortMessage"
+        android:selectAllOnFocus="true">
+        <requestFocus />
+    </EditText>  
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1"   
+    android:paddingTop="10dp" >
+        <TableRow>
+		    <Button
+		        android:id="@+id/send"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"		        
+		        android:layout_gravity="left" 
+		        android:text="@string/button_sendText" 
+		        android:onClick="sendText"/>
+		    <Button
+		        android:id="@+id/recover"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="right"
+		        android:text="@string/button_recoverText" 
+		        android:onClick="recoverText"/>
+    	</TableRow>
+    </TableLayout>
+
+</LinearLayout>

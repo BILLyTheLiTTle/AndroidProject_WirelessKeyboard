@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WirelessKeyboardClient</string>
+    <string name="introduction">You can use it for the Android TV Box</string>
+    <string name="ipText">192.168.1.4</string>
+    <string name="portText">8895</string>
+    <string name="shortMessage">Writes Engish και Ελληνικά!</string>
+    <string name="button_sendText">Send Text</string>
+	<string name="button_recoverText">Recover Text</string>
+</resources>
