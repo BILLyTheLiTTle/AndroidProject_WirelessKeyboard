@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WirelessKeybordServer</string>
+    <string name="introduction">Works as debug screen</string>
+    <string name="portText">8895</string>
+    <string name="openText">Start Server</string>
+    <string name="closeText">Stop Server</string>
+</resources>
